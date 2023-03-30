@@ -194,7 +194,7 @@ async fn broadcast_tx(data: String)-> Result<(), Box<dyn std::error::Error>>{
     // Replace with your Bitcoin Core RPC credentials
     let rpc_url = "http://127.0.0.1:8332";
     let rpc_user = "bitcoin";
-    let rpc_password = "Persario_1";
+    let rpc_password = "=======";
 
     let auth = Auth::UserPass(rpc_user.to_string(), rpc_password.to_string());
     let rpc = Client::new(rpc_url.to_string(), auth)?;
